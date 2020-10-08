@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.logo{
+    padding-top: 9px ;
+    padding-left: 50px;
+    height: 70px;
+}
+
+.MainMenu {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding: 10px 20px 0px 20px;
+    margin-right: 50px ;
+}
+
+.MainMenu-Quienes{
+    padding: 23px 14px 23px 14px;
+    background: whitesmoke;
+}
+
+.MainMenu-list{
+    padding: 24px 20px 24px 20px;
+}
+
+.Banner{
+    height: 100%;
+    width: 100%;
+}
+
+
+.quienes-somos{
+    float: left; 
+    padding: 40px 0px 0px 60px;
+    font-style: italic;
+    color: #777;
+    font-size: 28px;
+}
+
+.parrafo1{
+    width: 280px;
+    text-align: justify;
+    font-size: 17px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.Nuestros{
+    float: left; 
+    padding: 40px 0px 0px 60px;
+    font-style: italic;
+    color: #777;
+    font-size: 28px;
+}
+
+.lista01{
+    display: inline-block;
+}
+
+
+.lista{
+    padding-left: 60px;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    list-style: none;
+}
+
