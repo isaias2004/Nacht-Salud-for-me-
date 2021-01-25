@@ -4,37 +4,78 @@
         <title>Nacht Salud page</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content ="width=device-width, initial-scale=1">
     </head>
     <body>
       <header>
-           <img class="logo" src=".//images/Nacht.salud.png">
-           <div class="MainMenu">
-                    <li class="MainMenu-Quienes"> Quienes Somos</li>
-                    <li class="MainMenu-list"> Rubros</li>
-                    <li class="MainMenu-list"> Equipamientos</li>
-                    <li class="MainMenu-list"> Servicion Especiales</li>
-                    <li class="MainMenu-list"> Contacto</li>
-          </div>
-          <div>
-             <img class="Banner" src="images/banner01.png">
-         </div>
+          <div class="menu-fixed">
+                <img class="logo" src=".//images/Nacht.salud.png">
+                <ul class="MainMenu">
+                            <li class="current"> <a href="#"> Quienes Somos</a></li>
+                            <li><a href="#"> Rubros </a></li>
+                            <li><a href="#"> Equipamientos </a></li>
+                            <li><a href="#"> Servicion Especiales </a></li>
+                            <li><a href="#"> Contacto </a></li>
+                </ul>
+            </div>     
+                    <img class="Banner" src="images/banner01.png">
      </header>
-     <div>
-         <h2 class="quienes-somos">
-             ¿Quiénes Somos?
-         </h2>
-         <p class="parrafo1">Contamos con basta experiencia en el manejo profesional del paciente extra-hospitalario y buscamos de manera incesante el cambio hacia la excelencia, en un rubro en el cual no existe el margen para la equivocación, ni detalle que pueda dejarse librado al azar.</p>
-         <p class="parrafo1">En <b>Nacht O&G</b>, tenemos el orgullo de ofrecer un trabajo implacable. Buscamos detrás de cada tarea la recompensa de esparcir confianza, tranquilidad y seguridad en cualquier entorno que nos encuentre presentes.</p>
-         <div class="lista01">
-            <h3 class="Nuestros">Nuestros Valores</h3>
-           <div class="lista">
-                <li>Compromiso</li>
-                <li>Responsabilidad</li>
-                <li>Salud</li>
-                <li>Seguridad</li>
-                <li>Experiencia</li>
-            </div>
-        </div>  
-     </div>
-    </body>     
+    <section id="quienes-somos">
+        <div class="contenedor">
+          <div class="textos3">
+              <h2>¿Quiénes Somos?</h2>
+              <p class="textos">Contamos con basta experiencia <br>en el manejo profesional del <br>paciente extra-hospitalario y<br> buscamos de manera incesante el<br> cambio hacia la excelencia, en un <br>rubro en el cual no existe el <br>margen para la equivocación, ni <br>detalle que pueda dejarse librado <br>al azar.</p>
+              <p class="textos">En <strong>Nacht O&G,</strong> tenemos el orgullo<br> de ofrecer un trabajo implacable.<br> Buscamos detrás de cada tarea la <br>recompensa de esparcir <br>confianza, tranquilidad y <br>seguridad en cualquier entorno <br>que nos encuentre presentes.</p>
+              <div class="nuestros-container">
+                    <ul class="nuestros">
+                        <h2 class="h2valores">Nuestros Valores</h2>
+                            <li>Compromiso</li>
+                            <li>Responsabilidad</li>
+                            <li>Seguridad</li>
+                            <li>Salud</li>
+                            <li>Experiencia</li>
+                    </ul>
+             </div>
+         </div>
+       </div>
+    </section>
+    </body> 
+    <div class="todo">
+    </div>
+    <section class="rubros">
+        <div class="background-img">
+            <div class="container-img">
+                <div class="row">
+                    <div class="cuadros">
+                        <img src="/images/rubro-petroleo.jpg">
+                        <p> Petróleo</p>
+                    </div> 
+                    <div class="cuadros">
+                        <img src="/images/rubro-gas.jpg">
+                        <p> Gas</p>
+                    </div>
+                    <div class="cuadros">
+                        <img src="/images/rubro-electricidad.jpg">
+                        <p> Electricidad</p>
+                    </div>
+                    <div class="cuadros">
+                        <img src="/images/rubro-mineria.jpg">
+                        <p> Minería</p>
+                    </div>
+                    <div>
+                        <img src="/images/rubro-competencias.jpg">
+                        <p> Competencias y Espectáculos</p>
+                    </div>
+                    <div class="cuadros">
+                        <img src="/images/rubro-eventos.jpg">
+                        <p> Eventos y especiales</p>
+                    </div>
+                    <div class="cuadros">
+                        <img src="/images/rubro-equipamiento.jpg">
+                        <p> Equipamiento</p>
+                    </div>
+                </div>
+             </div>
+        </div>      
+    </section>
 </html>
